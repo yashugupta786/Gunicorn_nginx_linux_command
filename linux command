@@ -1,0 +1,36 @@
+ubuntu 20.04
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt-get update
+sudo apt-get install python3.6
+apt-get update
+apt-get install python3-virtualenv
+virtualenv -p /usr/bin/python3.6 venv
+
+activate the environment
+source env/bin/activate
+
+command to Remove Directory 
+https://medium.com/analytics-vidhya/installing-tensorflow-with-cuda-cudnn-gpu-support-on-ubuntu-20-04-f6f67745750a
+
+command to move 
+sudo mv frompath  to path  
+
+vi path to file save and exit
+Press Esc
+Type :wq
+Press Enter
+
+without save 
+Press Esc
+Type :q!
+Press Enter 
+
+
+apache sudo systemctl status apache2
+
+kill python service and process
+kill -9 $(ps -A | grep python | awk '{print $1}')
+
+
+add repositry in yum 
+https://linoxide.com/how-tos/add-repositories-yum/
