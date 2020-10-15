@@ -22,3 +22,5 @@ src
   
   
  cd ~/srcgunicorn --bind 0.0.0.0:5000 wsgi:app
+
+https://medium.com/@thucnc/deploy-a-python-flask-restful-api-app-with-gunicorn-supervisor-and-nginx-62b20d62691f
