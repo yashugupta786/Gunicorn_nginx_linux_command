@@ -30,6 +30,7 @@ apache sudo systemctl status apache2
 
 kill python service and process
 kill -9 $(ps -A | grep python | awk '{print $1}')
+sudo fuser -k 5000/tcp   killing with port
 
 
 add repositry in yum 
